@@ -31,7 +31,7 @@ jobs:
               args: [--frozen-lockfile]
 
       - name: Build
-        run: pnpm build:packages
+        run: pnpm build
 
       - name: Release
         env:
